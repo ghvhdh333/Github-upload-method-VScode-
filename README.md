@@ -5,9 +5,9 @@
 
 ## 코딩 업로딩하기 전 (완전 처음일 때)
 
-● git Downloads
+● 1. git Downloads
 
-● git 환경설정
+● 2. git 환경설정
 
   +  2 - 1. git bash 실행
   
