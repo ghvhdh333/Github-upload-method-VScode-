@@ -2,26 +2,23 @@
 
 ---
 
-
 ## 코딩 업로딩하기 전 (완전 처음일 때)
 
 1. git Downloads
 
 2. git bash 실행
   
-3. git config --global user.name "이름"
+3. git config --global user.name "이름"   (git bash에서 입력)
   
-4. git config --global user.email "깃허브 가입 email"
+4. git config --global user.email "깃허브 가입 email"   (git bash에서 입력)
 
-5. git config --list    (제일 하단 부분에 user.name 과 user.email이 제대로 들어갔는지 확인하기)
-
+5. git config --list    (제일 하단 부분에 user.name 과 user.email이 제대로 들어갔는지 확인하기)   (git bash에서 입력)
 
 ---
 
-
 ## 해당 파일을 처음 코딩 업로딩 할 때
 
-1. Repository 만들기
+1. github Repository 만들기
 
 2. VScode에서 터미널 열기
 
@@ -46,7 +43,6 @@
 
 ---
 
-
 ㅇ 업데이트 하는 법
 
 1. 추가할 파일 더하기
@@ -58,9 +54,7 @@
 3. github로 올리기
    git push origin master
    
-
 ---
-
 
 ㅇ 팀프로젝트 하는 법
 
@@ -85,5 +79,3 @@
 
 5. 브렌치끼리 이동하는 법
    git checkout 브렌치이름
-
-
