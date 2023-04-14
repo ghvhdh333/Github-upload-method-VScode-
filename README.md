@@ -5,7 +5,7 @@
 
 ## 코딩 업로딩하기 전 (완전 처음일 때)
 
-+ 1. git Downloads
++ 1 git Downloads
 
 + 2. git 환경설정
 
