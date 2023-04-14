@@ -1,30 +1,56 @@
 # Github-upload-method-VScode-
 
 --------------------------------------------------------
+
+
+ㅇ 코딩 업로딩하기 전
+
+1. git Downloads
+
+2. git 환경설정
+
+  2 - 1. git bash 실행
+  
+  2 - 2. git config --global user.name "이름"
+  
+  2 - 3. git config --global user.email "깃허브 가입 email"
+
+  2 - 4. git config --list    (제일 하단 부분에 user.name 과 user.email이 제대로 들어갔는지 확인하기)
+
+
+--------------------------------------------------------
+
+
 ㅇ 처음 코딩 업로딩하기
-1. 초기화
+
+1. Repository 만들기
+
+2. VScode에서 터미널 열기
+
+3. 초기화
     git init
 
-2. 추가할 파일 더하기
+4. 추가할 파일 더하기
     git add .
     ex) git add index.html
 
-3. 상태 확인
+5. 업로드 될 파일 상태 확인
     git status
 
-4. 히스토리 만들기
+6. 히스토리 만들기 ex) 히스토리 제목 : "first commit"
    git commit -m "first commit"
 
-5. 연결됐는지 확인
+7. 내 계정과 연결됐는지 확인
    git remote -v
 
-6. github로 올리기
+8. github에기업로드하기
    git push origin master
 
-----------------------------------------------------------------------------
+--------------------------------------------------------
 
 
 ㅇ 업데이트 하는 법
+
 1. 추가할 파일 더하기
    git add .
 
@@ -33,10 +59,13 @@
 
 3. github로 올리기
    git push origin master
+   
 
 ----------------------------------------------------------------------------
 
+
 ㅇ 팀프로젝트 하는 법
+
 1. github에서 소스코드 다운로드 
    git clone 주소 폴더이름
    (주소는 깃허브에서 들고와야 함
