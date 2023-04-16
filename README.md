@@ -32,10 +32,11 @@
 5. 업로드 될 파일 상태 확인  <br>
     git status
 
-6. 히스토리 만들기 ex) 히스토리 제목 : "first commit"  <br>
+6. 히스토리 만들기   ex) 제목 : "first commit"  <br>
    git commit -m "first commit"
    
-7. git remote add origin https://github.com/ghvhdh333/Portfolio-website.git <br>
+7. 프로젝트 파일과 github 계정 연결하기 <br>
+   git remote add origin https://github.com/ghvhdh333/Portfolio-website.git <br>
    이거랑 비슷한거 복사해서 붙여넣기
 
 8. 내 계정과 연결됐는지 확인  <br>
@@ -67,17 +68,17 @@
    폴더이름을 줄 경우에는 그 폴더가 새로 생성이 되면서 그 안에 코드들이 다운로드가 되고, <br> 
    폴더이름을 안줄 경우에는 깃허브 프로젝트 이름으로 폴더가 자동으로 생기고 그 안에 코드들이 다운로드 된다.)
 
-2. github에서 내 branch(브렌치) 만들기
+2. github에서 내 branch(브렌치) 만들기 <br>
    git checkout -b 브렌치이름
 
-3. 내 브렌치에서 소스코드 업데이트하기
-   git add .
-   git commit -m "first commit"
-   git push origin 브렌치이름
+3. 내 브렌치에서 소스코드 업데이트하기 <br>
+   git add .                        <br>
+   git commit -m "first commit"     <br>
+   git push origin 브렌치이름        
 
-4. 마스터 브렌치에 소스가져오기
-   git pull origin master
+4. 마스터 브렌치에 소스가져오기       <br>
+   git pull origin master           <br>
    pull하기 전에 기존에 소스코드들을 commit을 먼저 해놔야 한다.
 
-5. 브렌치끼리 이동하는 법
+5. 브렌치끼리 이동하는 법             <br>
    git checkout 브렌치이름
