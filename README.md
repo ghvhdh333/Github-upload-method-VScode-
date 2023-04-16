@@ -22,36 +22,39 @@
 
 2. VScode에서 터미널 열기
 
-3. 초기화
+3. 초기화 <br>
     git init
 
-4. 추가할 파일 더하기
-    git add .
+4. 추가할 파일 더하기  <br>
+    git add .  <br>
     ex) git add index.html
 
-5. 업로드 될 파일 상태 확인
+5. 업로드 될 파일 상태 확인  <br>
     git status
 
-6. 히스토리 만들기 ex) 히스토리 제목 : "first commit"
+6. 히스토리 만들기 ex) 히스토리 제목 : "first commit"  <br>
    git commit -m "first commit"
+   
+7. git remote add origin https://github.com/ghvhdh333/Portfolio-website.git <br>
+   이거랑 비슷한거 복사해서 붙여넣기
 
-7. 내 계정과 연결됐는지 확인
+8. 내 계정과 연결됐는지 확인  <br>
    git remote -v
 
-8. github에기업로드하기
+9. github에기업로드하기  <br>
    git push origin master
 
 ---
 
 ### 업데이트 하는 법
 
-1. 추가할 파일 더하기
+1. 추가할 파일 더하기  <br>
    git add .
 
-2. 히스토리 만들기
+2. 히스토리 만들기  <br>
    git commit -m "first commit"
 
-3. github로 올리기
+3. github로 올리기  <br>
    git push origin master
    
 ---
