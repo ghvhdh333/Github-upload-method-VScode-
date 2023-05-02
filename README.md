@@ -42,7 +42,7 @@
 8. 내 계정과 연결됐는지 확인  <br>
    git remote -v
 
-9. github에기업로드하기  <br>
+9. github에 업로드하기  <br>
    git push origin master
 
 ---
