@@ -36,7 +36,7 @@
    git commit -m "first commit"
    
 7. 프로젝트 파일과 github 계정 연결하기 <br>
-   ex) git remote add origin https://github.com/ghvhdh333/Portfolio-website.git <br>
+   ex) git remote add origin https://github.com/ghvhdh333/aaaaa.git <br>
    이거랑 비슷한거 복사해서 붙여넣기
 
 8. 내 계정과 연결됐는지 확인  <br>
